@@ -1,0 +1,50 @@
+/*------------
+    RESET
+------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------
+    LAYOUT
+------------*/
+
+.row {
+    display: flex;
+}
+
+.col20 {
+    width: calc(100% / 5);
+}
+
+.col30 {
+    width: 30%;
+}
+
+.col70 {
+    width: 70%;
+}
+
+.col60 {
+    width: 60%;
+}
+
+.col40 {
+    width: 40%;
+}
+
+.col100 {
+    width: 100%;
+}
+
+.col33 {
+    width: calc(100% / 3);
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
