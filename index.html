@@ -4,16 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/roll.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- HEADER -->
+
     <header>
         <div class="container">
-            <div class="row">
+            <div class="row move-between">
                 <img src="./img/logo.png" alt="logo">
+                <nav>
+                    <ul class="nav-header">
+                        <li>
+                            <a href="#">Planning</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Testimonials</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+
+                        <li>
+                            <button class="display-f btn-primary bg-white">Get Started</button>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-bars"></i>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
-    <main></main>
+
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+
+    <main>
+        <section  id="intro">
+            <div class="container">
+                    <div class="row space-text">
+                        <div class="col grow-space">
+                            <div class="big-card bg-lightblue">
+                                <div class="text-content">
+                                    <h2 class="txt-blue">Get a demo application</h2>
+                                    <p class="space-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore obcaecati repellat ipsa labore quae delectus nostrum. Repellendus sunt assumenda molestiae, minima velit maxime veniam, molestias cum eius aut hic!</p>
+                                    <button class="btn-apple space-text bg-blue txt-white"><i class="fa-brands fa-apple"></i>App Store</button>
+                                </div>
+                                <div class="select-phone">
+                                    <img src="./img/phone.png" alt="phone" class="padding-top">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col display-f ">
+                            <div class="card bg-lightblue mrg-negative">
+                                <i class="txt-blue fa-solid fa-file-code"></i>
+                                <h2 class="txt-blue">Clean Code</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta optio dolorem laudantium. Excepturi iure repudiandae, qui et harum unde odio quas accusantium reiciendis repellat dolor ut eos architecto itaque labore?</p>
+                            </div>
+                        </div>
+                            <!-- <div class="big-card display-f bg-lightblue">
+                                <div> 
+                                    <h2>Get a demo application</h2>
+                                    <p class="space-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore obcaecati repellat ipsa labore quae delectus nostrum. Repellendus sunt assumenda molestiae, minima velit maxime veniam, molestias cum eius aut hic!</p>
+                                    <button class="btn-apple space-text">App Store</button>
+                                </div>
+                                <div class="select-phone">
+                                    <img src="./img/phone.png" alt="">
+                                </div>
+                            </div> -->
+                            <!-- <div class="col card bg-lightblue">
+                            <i class="fa-solid fa-file-code"></i>
+                            <h2>Clean Code</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta optio dolorem laudantium. Excepturi iure repudiandae, qui et harum unde odio quas accusantium reiciendis repellat dolor ut eos architecto itaque labore?</p>
+                        </div> -->
+                    </div>
+
+                    <div id="intro" class="row">
+                   
+                        <div class="col display-f ">
+                            <div class="card bg-lightblue">
+                                <i class="txt-blue fa-solid fa-compass-drafting"></i>
+                                <h2 class="txt-blue">Web Design</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta optio dolorem laudantium. Excepturi iure repudiandae, qui et harum unde odio quas accusantium reiciendis repellat dolor ut eos architecto itaque labore?</p>
+                            </div>
+                        </div>
+
+                        <div class="col display-f ">
+                            <div class="card bg-lightblue">
+                                <i class="txt-blue fa-solid fa-laptop-code"></i>
+                                <h2 class="txt-blue">Developement</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta optio dolorem laudantium. Excepturi iure repudiandae, qui et harum unde odio quas accusantium reiciendis repellat dolor ut eos architecto itaque labore?</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col display-f padding-col">
+                            <div class="card bg-lightblue">
+                                <i class="txt-blue fa-solid fa-bullhorn"></i>
+                                <h2 class="txt-blue">Branding</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta optio dolorem laudantium. Excepturi iure repudiandae, qui et harum unde odio quas accusantium reiciendis repellat dolor ut eos architecto itaque labore?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <!-- /MAIN -->
     <footer></footer>
 </body>
 </html>
