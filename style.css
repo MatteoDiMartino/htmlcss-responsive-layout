@@ -34,7 +34,6 @@ header {
 }
 .row {
     display: flex;
-    flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px;
     padding-bottom: 30px;
@@ -44,6 +43,13 @@ header {
     max-width: 1170px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+.container-2 {
+    max-width: 885px;
+    padding: 0 10px;
+    margin: 0 auto;
+    min-height: 1000px;
 }
 
 .col20 {
@@ -74,12 +80,69 @@ header {
     width: 67%;
 }
 
+.col50 {
+    width: 50%;
+}
+
+.content-col50 {
+    padding-top: 100px;
+    gap: 50px;
+}
+
 .col {
     padding: 0px 30px 0px 0px;
 }
 
 #intro .col {
     width: calc(100% / 3);
+}
+
+.invisible-card {
+    padding: 20px;
+}
+
+.invisible-card h1 {
+    padding-bottom: 35px;
+    font-size: 30px;
+}
+
+.invisible-card p {
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.invisible-card img {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.white-card {
+    margin-top: 100px;
+    border-radius: 50px;
+    padding:  15px 20px 15px 20px;
+    width: 80%;
+}
+
+.deatils-w-card {
+    display: flex;
+    align-items: end;
+}
+
+.white-card img {
+    display: flex;
+    justify-content: center;
+}
+
+.white-card h1 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.white-card p {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
 }
 /*------------
     DEATILS
@@ -156,9 +219,25 @@ li > a{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.strategic-planning {
+    background-color: #9792e4;
+}
 /*------------
     ELEMENT
 ------------*/
+.btn-arrow {
+    background-color: #9792e4;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.align-btnarrow {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
 
 .btn-primary {
     padding: 6px 10px;
@@ -222,10 +301,6 @@ li > a{
     padding-top: 30px;
 }
 
-div > i {
-    color: black;
-}
-
 .bg-card {
     background-color: #b5ddff;
 }
@@ -286,9 +361,43 @@ li:last-child{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 100%;
+        width: 100%;
     }
 
-    .bg-card img {
-        margin-left: -20px;
+    .big-card h2 {
+        font-size: 34px;
+    }
+
+    .big-card p {
+        padding-left: 0px;
+        font-size: 18px;
+    }
+
+    .big-card img {
+        width: 35%;
+        display: flex;
+        
+    }
+
+    .card{
+        height: 100%;
+        padding: 30px;
+    }
+
+    .card i {
+        font-size: 95px;
+    }
+
+    .card h2 {
+        font-size: 30px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .intro-block {
+        padding-left: 15px;
     }
 }
