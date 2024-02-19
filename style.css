@@ -49,7 +49,7 @@ header {
     max-width: 885px;
     padding: 0 10px;
     margin: 0 auto;
-    min-height: 1000px;
+    padding-bottom: 20px;
 }
 
 .col20 {
